@@ -7,13 +7,13 @@ Origin: vendor
 Forwarded: not-needed
 Last-Update: 2020-04-15
 ---
- tests/lib/test_appliance.py | 2 ++
+ tests/legacy_tests/test_appliance.py | 2 ++
  1 file changed, 2 insertions(+)
 
-diff --git a/tests/lib/test_appliance.py b/tests/lib/test_appliance.py
-index 0c5cda1..c07a1a5 100644
---- a/tests/lib/test_appliance.py
-+++ b/tests/lib/test_appliance.py
+diff --git a/tests/legacy_tests/test_appliance.py b/tests/legacy_tests/test_appliance.py
+index 4d42b30..ccc46dd 100644
+--- a/tests/legacy_tests/test_appliance.py
++++ b/tests/legacy_tests/test_appliance.py
 @@ -112,8 +112,10 @@ def display(results, verbose):
      sys.stdout.write('TESTS: %s\n' % total)
      if failures:

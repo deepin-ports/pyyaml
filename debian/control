@@ -10,12 +10,11 @@ Build-Depends: debhelper-compat (= 13),
                python3-all-dev,
                python3-setuptools,
                libyaml-dev,
-               cython3-legacy
-Standards-Version: 4.6.2
+               cython3,
+Standards-Version: 4.7.3
 Vcs-Browser: https://salsa.debian.org/python-team/packages/pyyaml
 Vcs-Git: https://salsa.debian.org/python-team/packages/pyyaml.git
 Homepage: https://github.com/yaml/pyyaml
-Rules-Requires-Root: no
 
 Package: python3-yaml
 Architecture: any

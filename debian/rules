@@ -15,7 +15,7 @@ ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	  python$$i -c "import sys ; sys.path.insert(0, '.pybuild/cpython3_"$$i"_yaml/build'); import _yaml" \
 	  echo "-- running tests for "$$i" plain --" ; \
 	  python$$i -c "import sys ; sys.path.insert(0, '.pybuild/cpython3_"$$i"_yaml/build'); \
-	      sys.path.insert(0, 'tests/lib'); import test_all; test_all.main([])";\
+	      sys.path.insert(0, 'tests/lib'); sys.path.insert(0, 'tests/legacy_tests'); import test_all; test_all.main([])";\
 	done
 endif
 

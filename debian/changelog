@@ -1,3 +1,31 @@
+pyyaml (6.0.3-1) unstable; urgency=medium
+
+  * New upstream version 6.0.3
+  * d/control: standards-version 4.7.3, drop rules-requires-root
+  * d/patches: drop distutils patch (obsolete), re-enable fatal_test_failures for legacy testsuite
+  * d/watch: upgrade to version 5
+
+ -- Gordon Ball <gordon@chronitis.net>  Sun, 28 Dec 2025 00:52:19 +0100
+
+pyyaml (6.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/copyright: Convert to machine-readable format
+  * Standards-Version: 4.7.2 (routine-update)
+  * Set upstream metadata fields: Documentation.
+  * Remove obsolete field Name from debian/upstream/metadata.
+
+ -- Dylan Aïssi <daissi@debian.org>  Fri, 22 Aug 2025 09:02:03 +0200
+
+pyyaml (6.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Make d/watch case-insensitive
+  * New upstream version 6.0.2
+  * Switch from cython3-legacy back to cython3
+
+ -- Alexandre Detiste <tchet@debian.org>  Mon, 12 Aug 2024 21:36:10 +0200
+
 pyyaml (6.0.1-2) unstable; urgency=medium
 
   * Team upload.

@@ -1,5 +1,5 @@
-Name: PyYAML
 Bug-Database: https://github.com/yaml/pyyaml/issues
 Bug-Submit: https://github.com/yaml/pyyaml/issues/new
+Documentation: https://pyyaml.org/wiki/PyYAMLDocumentation
 Repository: https://github.com/yaml/pyyaml.git
 Repository-Browse: https://github.com/yaml/pyyaml
